@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist Storyboard</title>
+  <!-- Tailwind CSS compilé via PostCSS -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans">
+  <header class="bg-blue-600 text-white p-6">
+    <h1 class="text-2xl font-bold">Checklist Storyboard</h1>
+    <p class="text-sm">Suivez vos étapes de création pas à pas</p>
+  </header>
+  <main class="p-6 space-y-4">
+    <!-- Exemple de bloc checklist -->
+    <section class="p-4 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-medium text-gray-950">1.1 Planifier votre livre</h2>
+      <p class="text-sm text-gray-600">Définir l’âge cible, nombre de mots, format.</p>
+      <button id="step1" class="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
+        Marquer comme terminé
+      </button>
+    </section>
+    <section class="p-4 bg-white rounded-lg shadow-md">
+      <h2 class="text-lg font-medium text-gray-950">1.2 Architecture narrative</h2>
+      <p class="text-sm text-gray-600">Choisir une structure (3 actes, guide pratique…)</p>
+      <button id="step2" class="mt-2 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">
+        Marquer comme terminé
+      </button>
+    </section>
+  </main>
+  <footer class="bg-gray-800 text-white p-4 text-center">
+    <p class="text-sm">© 2025 Mon Checklist Storyboard</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
